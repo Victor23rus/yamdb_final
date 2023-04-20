@@ -56,7 +56,7 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
-          sudo docker pull viktor918/yamdb_final:v1.0
+          sudo docker pull viktor918/api_yambd:latest
           sudo docker compose stop
           sudo docker compose rm web
           touch .env
