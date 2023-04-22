@@ -72,7 +72,7 @@ docker-compose exec web python manage.py dumpdata > dumpPostrgeSQL.json
 ```bash
 docker-compose down -v
 ```
-Сервер будет доступен по адресу: http://localhost/api/v1/
+Сервер будет доступен по адресу: http://51.250.22.235//api/v1/
 
 Шаблон наполнения .env (не включен в текущий репозиторий) расположенный по пути infra/.env
 DB_ENGINE=django.db.backends.postgresql
